@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>form</title>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="formjs.js"></script> 
+<link rel = "stylesheet" type="text/css" href = "contactForm.css">
+	</head>
+<body>
+	<br/>
+	 <div class="tablePos">
+	 <form type="submit" action="thanks.html">
+	 <div class="layer">
+       <center>
+	   <table>
+            <th colspan="2">CONTACT FORM</th>
+            <tr>
+                <td colspan="2"> <br></td>
+            </tr>
+            <tr>
+                <td><label for="fname">First Name : </label></td>
+                <td><input type="text" id="fname" onkeyup="return display(this.id);" name="disp" required ></td>
+				
+
+            <tr>
+                <td><label for="lname">Last Name :</label></td>
+                <td><input type="text" id="lname" name="disp" required ></td>
+            </tr>
+            <tr>
+                <td><label for="adrs">Address : </label></td>
+                <td><textarea id="adrs" name="disp" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">Phone :</label></td>
+                <td><input type="number" id="phonenumber" name="disp" maxlength="10" size="10" required ></td>
+            </tr>
+            <tr>
+                <td><label for="mail">e-Mail :</label></td>
+                <td><input type="email" id="mail" name="disp" maxlength="30" required ></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Gender</legend><input type="radio" id="1" name="gender"><label>Male</label>
+                        <input type="radio" id="2" name="gender"><label>Female</label>
+                    </fieldset>
+                </td>
+            </tr>
+			<tr class="btn"><td  colspan="2"><input class="button" type="submit" ></input></td></tr>
+			 
+			</table>
+			</center>
+	</div>  
+	 </div></form>
+	 <div id="display"></div>
+	 <div id="values"></div>
+	<footer>powered by &copy Praveenvee</footer>
+	
+	
+</body>
+
+
+</html>
