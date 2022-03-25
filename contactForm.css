@@ -1,0 +1,136 @@
+body{
+    background-image:url('blue1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+}
+body{
+	padding:20px;
+}
+table {
+	zoom:1.2; padding:20px;
+	background-color:#141E61;
+	color:white; box-shadow:1px 1px 8px black;
+	transition: transform 500ms;
+	border-radius:10px;
+	opacity:0.9;
+}
+table:hover{
+	box-shadow:1px 1px 13px black;
+	border-radius:10px;
+	transform:scale(1.1);
+}
+
+th {
+	font-size:20px;
+    background-color:#141E61;
+    padding: 10px;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+td {
+    background-color: #141E61;
+	
+}
+footer{
+	 border-top: 2px solid #ddbea9;
+	 text-align:center;
+	 font-size:15px;
+	 opacity:0.8; max-width:50%;
+	 margin-left:auto; margin-right:auto;
+	 padding:10px; clear:both;
+	 margin-bottom:0;
+}
+.button{
+	margin-top:20px;
+	text-align:center;
+	background-color:#787A91;
+	color:white;
+	border:none;
+	transition: transform 200ms;
+	border-radius:5px;
+	font-family:verdana;
+}
+.button:hover{
+	background-color:#787A91;
+	box-shadow:1px 1px 5px black;
+	transform:scale(1.1);
+	border-radius:5px;
+}
+
+input:focus{
+	outline:none;
+	box-sizing:border-box;
+
+}
+textarea{
+	resize:none;
+}
+textarea:focus{
+	border:none;
+	outline:none;
+
+}
+.btn{
+	text-align:center;
+	padding:20px;zoom:1.2;
+}
+.tablePos{
+	z-index:2;
+	position:relative;
+	
+}
+#display{
+	
+    z-index: 1;
+    top: -313px;
+    left: 0;
+	margin:0 auto;
+    position: relative;
+    height: 32px;
+    width: 79%;
+    font-size: 160px;
+    opacity: 0.8;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+#thanks{
+	animation:thanks 6s infinite;
+	-webkit-animation:thanks 6s infinite;
+    opacity: 1;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+	margin:0 auto;
+    position: relative;
+	FONT-SIZE: 320%;
+    padding-top: 14%;
+	padding-bottom:12%;
+}
+@keyframes thanks{
+	0%{opacity:0;}
+	25%{opacity:0.5}
+	50%{opacity:1}
+	75%{opacity:0.5}
+	100%{ opacity:0;}
+}
+@-webkit-keyframes thanks{
+		0%{opacity:0;}
+		25%{opacity:0.5}
+		50%{opacity:1}
+		75%{opacity:0.5}
+		100%{ opacity:0;}
+}
+
+.anime{
+	animation:thanks 2s;
+	-webkit-animation:thanks 2s;
+	border:19px solid orange;
+	border-radius:10px;
+}
+.small{
+	font-size:80%;
+}
